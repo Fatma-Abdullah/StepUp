@@ -2801,7 +2801,7 @@ hr {
 
 @media (max-width: 767px) {
     .slider-area .hero__caption {
-        padding-top: 75px
+        padding-top: 17px
     }
 }
 
@@ -7525,7 +7525,10 @@ color: #fff !important;
 }
 .zindex60 {z-index:60;}
 .zindex0 {z-index:0;}
-
+.navbar{
+    position: fixed;
+    width: 100%;
+}
 a:hover {
     color: #000;
 }
