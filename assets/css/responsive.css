@@ -1,120 +1,112 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
 
-
-}
-
+@media (min-width: 1200px) and (max-width: 1500px) {}
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
 
+@media (min-width: 992px) and (max-width: 1200px) {}
 
-}
-
- 
 /* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
 
-    .hero__caption{
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero__caption {
         margin-top: 130px;
-        
-        }
+    }
 }
 
- 
 /* small mobile :320px. */
 
- 
 /* Large Mobile :480px. */
+
 @media only screen and (min-width: 300px) and (max-width: 768px) {
-.container {max-width:450px}
-.gray.text-center {
-    margin-top: 20px;
-}
-.hero__caption{
-    margin-top: 95px;
+    .container {
+        max-width: 450px
+    }
+    .gray.text-center {
+        margin-top: 20px;
+    }
+    .hero__caption {
+        margin-top: 95px;
     }
     .videoDiv {
         padding: 5em;
         background-size: cover;
     }
-    .video-play-button{
-    transform: translateX(-2%) translateY(-7%);
-    width: 32px;
-    height: 44px;
-        }
-        ul.checkmark li:after{
-            top: 11%;
-        }
-        .Why-choose-us .single-do {
-            padding: 18px 7px 15px;
-        }
-.Why-choose-us .single-do .do-caption h4 {
-    font-size: 20px;
-}
-.single-do img {
-    width: 75px;
-}
-.choose-best .single-choose{
-    padding: 38px 0 0;
-    min-height: auto;
-}
-.choose-best .single-choose .do-caption ul li {
-    margin-bottom: 5px
-}
-
-.choose-best .single-choose .do-caption h4 {
-    margin-bottom: 20px;
-}
-.Clients img {
-    padding: 10px;
-}
-.haveAproject {
-    padding: 35px 15px
-}
-.haveAproject .wantToWork-caption h2 {
-    font-size: 27px;
-}
-.footer-area .footer-tittle h4 {
-    color: #012f5f;
-    font-size: 20px;
-    margin-bottom: 15px;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-top: 20px;
-}
-.section-padding {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.less-padding , .create-padding, .we-padding,.more-padding{ 
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.header-area .slicknav_btn {
-    top: -52px;
-}
-
-/* ----tabs---- */
-.ui-tabs-vertical .ui-tabs-nav li {
-    padding: 0px;
-    text-align: center;
-}
-.ui-tabs-vertical .ui-tabs-nav{
-    width:100%;
-}
-.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
-    float: none;
-}
-.ui-tabs-vertical .ui-tabs-panel {
-    width: 100%;
-    margin-top: 11px;
-}
-video{
-    border-radius: 5px;
-}
-.switch {
-    display: inline-block;
-    width: 232px;
-}
+    .video-play-button {
+        transform: translateX(-2%) translateY(-7%);
+        width: 32px;
+        height: 44px;
+    }
+    ul.checkmark li:after {
+        top: 11%;
+    }
+    .Why-choose-us .single-do {
+        padding: 18px 7px 15px;
+    }
+    .Why-choose-us .single-do .do-caption h4 {
+        font-size: 20px;
+    }
+    .single-do img {
+        width: 75px;
+    }
+    .choose-best .single-choose {
+        padding: 38px 0 0;
+        min-height: auto;
+    }
+    .choose-best .single-choose .do-caption ul li {
+        margin-bottom: 5px
+    }
+    .choose-best .single-choose .do-caption h4 {
+        margin-bottom: 20px;
+    }
+    .Clients img {
+        padding: 10px;
+    }
+    .haveAproject {
+        padding: 35px 15px
+    }
+    .haveAproject .wantToWork-caption h2 {
+        font-size: 27px;
+    }
+    .footer-area .footer-tittle h4 {
+        color: #012f5f;
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-top: 20px;
+    }
+    .section-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .less-padding, .create-padding, .we-padding, .more-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .header-area .slicknav_btn {
+        top: -52px;
+    }
+    /* ----tabs---- */
+    .ui-tabs-vertical .ui-tabs-nav li {
+        padding: 0px;
+        text-align: center;
+    }
+    .ui-tabs-vertical .ui-tabs-nav {
+        width: 100%;
+    }
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        float: none;
+    }
+    .ui-tabs-vertical .ui-tabs-panel {
+        width: 100%;
+        margin-top: 11px;
+    }
+    video {
+        border-radius: 5px;
+    }
+    .switch {
+        display: inline-block;
+        width: 232px;
+    }
 }
