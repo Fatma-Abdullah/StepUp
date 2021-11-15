@@ -19,6 +19,14 @@
 /* Large Mobile :480px. */
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
+    
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 3px 6px #d0d0d0;
+}
+
     .container {
         max-width: 450px
     }
