@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="875" height="875" viewBox="0 0 875 875">
+  <defs>
+    <clipPath id="clip-POS_logo">
+      <rect width="875" height="875"/>
+    </clipPath>
+  </defs>
+  <g id="POS_logo" data-name="POS logo" clip-path="url(#clip-POS_logo)">
+    <g id="Group_14" data-name="Group 14" transform="translate(35 437.154) rotate(-45)">
+      <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+        <path id="Path_1" data-name="Path 1" d="M568.731,568.734V327.7H490.058V490.058H78.681V78.673H241.134V0H0V568.731Zm-78.673-319.7h78.673V0H319.815V78.673H490.058Z" fill="#026fc2"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(140.26 179.553)">
+        <path id="Path_2" data-name="Path 2" d="M170.256,249.03h78.665V0H0V78.673H170.256Z" fill="#364550"/>
+      </g>
+    </g>
+  </g>
+</svg>
