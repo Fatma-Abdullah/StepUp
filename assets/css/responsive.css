@@ -23,23 +23,16 @@
 
  
 /* small mobile :320px. */
-@media (max-width: 768px) {
-.navbar{
-    position: fixed;
-    width: 100%;
-    background: #fff;
-    box-shadow: 1px 3px 6px #d0d0d0;
-}
-}
+
  
 /* Large Mobile :480px. */
-@media only screen and (min-width: 300px) and (max-width: 7678px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
 .container {max-width:450px}
 .gray.text-center {
     margin-top: 20px;
 }
 .hero__caption{
-    margin-top: 100px;
+    margin-top: 40px;
     }
     .videoDiv {
         padding: 5em;

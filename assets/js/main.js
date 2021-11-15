@@ -268,3 +268,9 @@ function close_video() {
   $('.navbar').removeClass('zindex0').addClass('zindex60')
 
 };
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').toggle('hide');
+});
+$('.navbar-toggler').on('click', function(){
+  $('.navbar-collapse').toggle('show');
+});
