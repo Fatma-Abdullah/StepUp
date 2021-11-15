@@ -249,6 +249,8 @@ $(function() {
 $('#play-video').on('click', function(e){
   e.preventDefault();
   $('#video-overlay').addClass('open');
+  $('.navbar').removeClass('zindex60').addClass('zindex0')
+
   $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/ngElkyQ6Rhs" frameborder="0" allowfullscreen></iframe>');
 });
 
@@ -263,4 +265,6 @@ $(document).keyup(function(e){
 
 function close_video() {
   $('.video-overlay.open').removeClass('open').find('iframe').remove();
+  $('.navbar').removeClass('zindex0').addClass('zindex60')
+
 };

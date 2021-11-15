@@ -44,45 +44,41 @@
 
     <header>
         <!-- Header Start -->
-        <div class="header-area header-transparrent ">
-            <div class="main-header header-sticky">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2 col-md-1">
-                            <div class="logo">
-                                <img src="assets/img/logo/logo.svg" alt="">
-                                <span class="blueBold">StepUp</span>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8 col-md-8">
-                            <!-- Main-menu -->
-                            <div class="main-menu m-auto d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a href="#"> Home</a></li>
-                                        <li><a href="#">Apps</a></li>
-                                        <li><a href="#services">Services</a></li>
-                                        <li><a href="#clients">Clients</a></li>
-                                        <li><a href="#pricing">Pricing</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-2 col-md-3">
-                            <div class="header-right-btn f-right align-items-center d-none d-lg-flex">
-                                <a href="#" class="blueBold mx-3">العربية</a>
-                                <a href="#" class="btn header-btn">Contact Us</a>
-                            </div>
-                        </div>
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light  zindex60">
+            <div class="logo">
+                <img src="assets/img/logo/logo.svg" alt="">
+                <span class="blueBold">StepUp</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Apps</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#clients">Clients</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                  </li>
+              </ul>
+              <div class="col-xl-2 col-lg-2 col-md-3">
+                <div class="header-right-btn f-right align-items-center d-none d-lg-flex">
+                    <a href="#" class="blueBold mx-3">العربية</a>
+                    <a href="#" class="btn header-btn">Contact Us</a>
                 </div>
             </div>
-        </div>
+           
+            </div>
+          </nav>
         <!-- Header End -->
     </header>
 
@@ -155,7 +151,7 @@
         <!-- About End-->
 
         <!-- controlDiv start-->
-        <div class=" we-create-area controlDiv directionRTL create-padding">
+        <div class=" we-create-area controlDiv directionRTL more-padding">
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-12 col-sm-5 d-flex justify-content-center">
@@ -190,7 +186,7 @@
             </div>
         </div>
         <!-- controlDiv End-->
-        <div class=" we-create-area controlDiv accounting directionLTR create-padding">
+        <div class=" we-create-area controlDiv accounting directionLTR less-padding">
             <div class="container">
                 <div class="row d-flex align-items-center ">
                     <div class="col-12 col-sm-5 d-flex justify-content-center">
@@ -222,7 +218,7 @@
         <!-- We Create End -->
   
         <!-- Why choose us start-->
-        <div class="Why-choose-us we-padding" id="services">
+        <div class="Why-choose-us less-padding" id="services">
             <div class="container">
                 <!-- Section-tittle -->
                 <div class="row d-flex justify-content-center">
@@ -395,7 +391,7 @@
         </div>
         <!-- Generating End -->
         <!--Choose Best start-->
-        <section class="pricingDiv choose-best choose-padding" id="pricing">
+        <section class="pricingDiv choose-best less-padding" id="pricing">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-7">
@@ -477,7 +473,7 @@
         <!-- Choose Best do End-->
 
         <!--Clients start-->
-        <section class="Clients section-padding" id="clients">
+        <section class="Clients less-padding" id="clients">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-7">
@@ -523,7 +519,7 @@
                                 <h2>Discover new landing pages for your startups</h2>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-lg-3 col-md-12">
+                        <div class="col-xl-5 col-lg-3 col-md-12 d-flex justify-content-center">
                             <div class="wantToWork-btn f-right">
                                 <a href="#" class="btn btn-ans">Join Us</a>
                             </div>
@@ -616,6 +612,15 @@
                 <div class="container">
                     <div class="footer-border">
                         <div class="row d-flex align-items-center">
+                            <div class="col-12 col-sm-3 text-center">
+                                <div class="gray text-center">
+                                    <a href="#"> HELP & SUPPORT </a>| <a href="#">PRIVACY POLICY</a>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-5 text-center">
+                                <hr>
+                            </div>
                             <div class="col-12 col-sm-4 text-center">
                                 <div class="footer-copy-right ">
                                     <p>
@@ -623,14 +628,6 @@
                                         <script>document.write(new Date().getFullYear());</script> All rights reserved |
                                         tazeeez.com
                                     </p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-5 text-center">
-                                <hr>
-                            </div>
-                            <div class="col-12 col-sm-3 text-center">
-                                <div class="gray text-center">
-                                    <a href="#"> HELP & SUPPORT </a>| <a href="#">PRIVACY POLICY</a>
                                 </div>
                             </div>
                         </div>

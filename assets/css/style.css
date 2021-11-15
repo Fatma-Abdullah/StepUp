@@ -7523,3 +7523,28 @@ color: #fff !important;
     color: #036fc2;
     font-weight: bold;
 }
+.zindex60 {z-index:60;}
+.zindex0 {z-index:0;}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+a:hover {
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: bold;
+    margin: 5px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    box-shadow: 1px 3px 6px #d0d0d0;
+}
+.more-padding{
+    padding-top: 10em;
+    padding-bottom: 30px;}
