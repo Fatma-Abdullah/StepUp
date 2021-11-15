@@ -4195,6 +4195,9 @@ hr {
     -o-transition: all .4s ease-out 0s;
     transition: all .4s ease-out 0s
 }
+.contactForm .footer-social a {
+    margin-bottom: 35px;
+}
 
 .footer-social a:hover {
     background: #026FC2
