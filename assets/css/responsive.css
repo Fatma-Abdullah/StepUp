@@ -29,9 +29,67 @@
 }
  
 /* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+.container {max-width:450px}
 .hero__caption{
     margin-top: 100px;
     }
+    .videoDiv {
+        padding: 5em;
+        background-size: cover;
+    }
+    .video-play-button{
+    transform: translateX(-2%) translateY(-7%);
+    width: 32px;
+    height: 44px;
+        }
+        ul.checkmark li:after{
+            top: 11%;
+        }
+        .Why-choose-us .single-do {
+            padding: 18px 7px 15px;
+        }
+.Why-choose-us .single-do .do-caption h4 {
+    font-size: 20px;
+}
+.single-do img {
+    width: 75px;
+}
+.choose-best .single-choose{
+    padding: 38px 0 0;
+    min-height: auto;
+}
+.choose-best .single-choose .do-caption ul li {
+    margin-bottom: 5px
+}
+
+.choose-best .single-choose .do-caption h4 {
+    margin-bottom: 20px;
+}
+.Clients img {
+    padding: 10px;
+}
+.haveAproject {
+    padding: 35px 15px
+}
+.haveAproject .wantToWork-caption h2 {
+    font-size: 27px;
+}
+.footer-area .footer-tittle h4 {
+    color: #012f5f;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.section-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.less-padding , .create-padding, .we-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 }
